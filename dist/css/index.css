@@ -1,0 +1,22 @@
+/*轮播*/
+.main-wrap {
+  width: 100%;
+  height: 1000px;
+  background: yellowgreen;
+}
+.main-wrap .lunbo-wrap {
+  width: 100%;
+  height: 444px;
+}
+.main-wrap .lunbo-wrap .lunbo-img {
+  height: inherit;
+}
+.main-wrap .lunbo-wrap .lunbo-img .img {
+  display: inline;
+  width: 100%;
+  height: inherit;
+  background-size: cover !important;
+}
+.main-wrap .lunbo-wrap .lunbo-img .img:nth-child(1) {
+  background: url("../../dist/images/index/lunbo1.jpg");
+}
